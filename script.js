@@ -44,6 +44,7 @@ function startGame() {
         createColors();
         let shuffledColors = shuffle(COLORS);
         createDivsForColors(shuffledColors);
+        yourScore.innerText = `Your Score: 0`
     });
 }
 
